@@ -39,7 +39,8 @@ header, footer {
 }
 h1 {
     font-size: 1.3rem;
-    padding: 10px 0px;
+    padding-top: 1%;
+    
 }
 form {
     box-sizing: inherit;
@@ -57,7 +58,7 @@ input {
     border: 2px solid #E5E7EB;
     border-radius: 4px;
     padding: 5px;
-    width: 220px;
+    width: 25vh;
     
 }
 input:focus {
@@ -83,14 +84,14 @@ label {
 }
 .row {
     display: flex;
-    gap: 50px;
-    
+    gap: 50px; 
 }
+
 .container {
     display: flex;
-    height: 90%;
+    height: 100%;
     background-color: #ffffff;
-    margin: 50px 350px;
+    margin: 0 10%;
 }
 .right-side {
     display: flex;
@@ -99,7 +100,7 @@ label {
     height: 100%;
 }
 .paragraph {
-    padding: 115px 160px 50px 0; 
+    padding: 13% 14% 1% 0; 
     font-weight: 550;
     font-size: 1.15rem;
 }
@@ -126,7 +127,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    margin: 200px auto;
+    margin: 150px auto;
     height: 130px;
 }
 .logotitle {
